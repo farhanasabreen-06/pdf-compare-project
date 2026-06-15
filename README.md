@@ -1,4 +1,4 @@
-# PDF Comparison Tool using Python
+# PDF COMPARISION TOOL WITH PYTHON
 
 This project compares two PDF files and checks whether they are identical using cryptographic hashing.
 
@@ -33,6 +33,7 @@ pdf-compare-project/
 ├── requirements.txt       
 └── README.md  
 ```
+
 ## HOW TO RUN
 
 ## 1. Clone the repository
@@ -65,14 +66,12 @@ Files are not identical
 4. Duplicate file detection
 5. Security validation
 
-FUTURE IMPROVEMENTS
+## FUTURE IMPROVEMENTS
 
-Upgrade to SHA-256 hashing
-Add similarity scoring
-Build GUI using Streamlit
-Folder comparison support
-PDF content difference detection
-
-AUTHOR
+1. Upgrade to SHA-256 hashing
+2. Add similarity scoring
+3. Build GUI using Streamlit
+4. Folder comparison support
+5. PDF content difference detection
 
 Built for learning Python file handling and hashing concepts.
