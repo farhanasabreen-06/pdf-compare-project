@@ -20,10 +20,9 @@ This project compares two PDF files and checks whether they are identical using 
 5. If hash values are different → files are not identical
 
 ## TECH STACK
-
-Python 3
-hashlib
-os
+- **Python 3**
+- **hashlib**
+- **os**
 
 ## PROJECT STRUCTURE
 ```
