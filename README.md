@@ -11,13 +11,11 @@ This project compares two PDF files and checks whether they are identical using 
 - Works on Windows, Linux, Mac
 
 ## HOW IT WORKS
-
-1. Each file is read in binary mode.
-2. Data is processed in chunks.
-3. A hash value is generated for each file.
-
-4. If hash values are the same → files are identical
-5. If hash values are different → files are not identical
+- Each file is read in binary mode.
+- Data is processed in chunks.
+- A hash value is generated for each file.
+- If hash values are the same → files are identical
+- If hash values are different → files are not identical
 
 ## TECH STACK
 - **Python 3**
@@ -58,7 +56,6 @@ OR
 Files are not identical
 
 ## USE CASES
-
 1. File integrity checking
 2. Backup validation
 3. Cloud sync verification
@@ -66,11 +63,10 @@ Files are not identical
 5. Security validation
 
 ## FUTURE IMPROVEMENTS
-
 1. Upgrade to SHA-256 hashing
 2. Add similarity scoring
 3. Build GUI using Streamlit
 4. Folder comparison support
 5. PDF content difference detection
 
-Built for learning Python file handling and hashing concepts.
+- **NOTE:** Built for learning Python file handling and hashing concepts.
