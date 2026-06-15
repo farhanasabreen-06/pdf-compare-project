@@ -1,49 +1,55 @@
-PDF Comparison Tool (Python)
+# PDF Comparison Tool using Python
 
-A lightweight Python tool to compare two PDF files and check whether they are identical using cryptographic hashing.
+This project compares two PDF files and checks whether they are identical using cryptographic hashing.
 
-FEATURES
+## FEATURES
 
-Compares two PDF files efficiently
-Uses cryptographic hashing for accuracy
-Reads files in chunks for memory efficiency
-Simple command-line interface
-Works on Windows, Linux, and Mac
+- Compares two PDF files
+- Uses hashing for file comparison
+- Processes files in chunks for efficiency
+- Simple command-line execution
+- Works on Windows, Linux, Mac
 
-HOW IT WORKS
+## HOW IT WORKS
 
-Each file is read in binary mode. Data is processed in chunks and a hash value is generated for each file.
+1. Each file is read in binary mode.
+2. Data is processed in chunks.
+3. A hash value is generated for each file.
 
-If both hash values match, files are identical.
-If hash values differ, files are not identical.
+4. If hash values are the same → files are identical
+5. If hash values are different → files are not identical
 
-Think of it as a digital fingerprint for files.
+## TECH STACK
 
-TECH STACK
+Python 3
+hashlib
+os
 
-Python 3.x
-hashlib module
-os module
-
-PROJECT STRUCTURE
-
+## PROJECT STRUCTURE
+```
 pdf-compare-project/
-├── compare2pdfs.py
-├── .gitignore
-└── README.md
+├── compare2pdfs.py                 
+├── .gitignore            
+├── requirements.txt       
+└── README.md  
+```
+## HOW TO RUN
 
-HOW TO RUN
+## 1. Clone the repository
 
-Step 1: Clone the repository
+```
 git clone https://github.com/your-username/pdf-compare-project.git
 
-Step 2: Move into project folder
+```
+## 2. Enter project folder
+```
 cd pdf-compare-project
-
-Step 3: Run the script
+Run script
 python compare2pdfs.py file1.pdf file2.pdf
 
-EXAMPLE OUTPUT
+```
+
+## EXAMPLE OUTPUT
 
 Files are identical
 
@@ -51,32 +57,22 @@ OR
 
 Files are not identical
 
-REAL WORLD USE CASES
+## USE CASES
 
-File integrity checking
-Backup validation
-Cloud sync verification
-Duplicate file detection
-Security validation systems
+1. File integrity checking
+2. Backup validation
+3. Cloud sync verification
+4. Duplicate file detection
+5. Security validation
 
 FUTURE IMPROVEMENTS
 
 Upgrade to SHA-256 hashing
-Show similarity percentage
-Add GUI using Streamlit
-Compare entire folders
-Add PDF content difference detection
+Add similarity scoring
+Build GUI using Streamlit
+Folder comparison support
+PDF content difference detection
 
 AUTHOR
 
-Built to understand:
-
-File handling in Python
-Cryptographic hashing
-Practical utility tool design
-
-IMPORTANT NOTE
-
-Ensure file paths are correct
-Ensure files exist before running
-Use Python 3.x
+Built for learning Python file handling and hashing concepts.
